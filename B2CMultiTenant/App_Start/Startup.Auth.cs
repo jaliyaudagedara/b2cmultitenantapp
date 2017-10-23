@@ -31,6 +31,7 @@ namespace B2CMultiTenant
 
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        // Test
         public void ConfigureAuth(IAppBuilder app)
         {
             app.UseErrorPage();
